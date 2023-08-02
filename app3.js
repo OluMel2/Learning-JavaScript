@@ -33,16 +33,27 @@
 //与えられた引数を基にして、特定の文字列を結合する関数が作成できた。
 
 // メイン部分
-let alertString;
+//let alertString;
 
 // 作成した関数を呼び出し、変数へ格納
-alertString = addString("WebCamp");
+//alertString = addString("WebCamp");
 
 //変数の中身をアラートで表示する
-alert(alertString);
+//alert(alertString);
 
 // 作成した関数
-function addString(strA){
-  let addStr = "Hello " + strA;
-  return addStr;
-}
+//function addString(strA){
+//  let addStr = "Hello " + strA;
+//  return addStr;
+//}
+
+
+
+//関数は、複数定義することもできる
+//入力ダイアログで値を入力
+
+let promptStr = prompt('何か好きな文字を入力してください。');
+
+alert(promptStr);
+
+//入力してOKボタンをクリックすると、入力された文字列はprompt()関数の戻り値として変数「promptStr」に格納され、アラートウィンドウ上に表示される
