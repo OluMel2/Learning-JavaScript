@@ -1,3 +1,5 @@
+//2章 【JavaScriptの基本文法】
+
 //let 変数名 = 内容 ;
 //let hello = 'Hello World';
 //alert(hello);
